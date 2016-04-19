@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+#myCarousel{
+	margin: 50px 0 0 0;
+}
+.carousel-inner img{
+	margin: 0 auto;
+}
+/*.carousel-control{
+	font-size: 100px;
+}*/
+.tab-h2{
+	font-size: 20px;
+	text-align: center;
+}
+.tab-p{
+	font-size: 15px;
+	text-align: center;
+}
+.col{
+	padding: 20px;
+}
+.text-muted{
+	text-decoration: line-through;
+}
+
+.tab2{
+	background: #eee;
+	text-align: center;
+}
+.tab2 img{
+	width: 40%;
+	height: 40%;
+}
+.tab3{
+	text-align: center;
+}
+.tab3 img{
+	width: 65%;
+	height: 65%;
+}
+
+.jumbotron{
+	background-image: url(../img/bg.jpg);
+	margin: 50px 0 0 0;
+	color: #ccc;
+}
+#information{
+	padding: 40px 0;
+	background: #eee;
+}
+.info-row{
+	background: #fff;
+	margin: 10px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+.info-row img{
+	margin: 12px 0;
+}
+
+.info-right{
+	box-shadow: 2px 2px 2px #ccc;
+	background: #fff;
+}
+.info-right blockquote{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+#case{
+	padding: 40px 0;
+	text-align: center;
+	background: #eee;
+}
+
+#about{
+	padding: 20px 0;
+	background: #eee;
+}
+.instruciton{
+	background: #fff;
+}
+.instruciton h3{
+	border-bottom: 1px solid #ccc;
+}
+.topfix{
+	position: relative;
+	top:50px;
+}
+
+#footer{
+	background: #ccc;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+
+
+@media (min-width: 768px) {
+	.tab-h2{
+		font-size: 26px;
+	}
+	.tab-p{
+		font-size: 16px;
+	}
+	.tab2-img{
+		float: right;
+	}
+	.tab2-p{
+		float: left;
+	}
+	.info-row h4{
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow:ellipsis;	
+	}
+}
+@media(min-width: 992px){
+	.tab-h2{
+		font-size: 28px;
+	}
+	.tab-p{
+		font-size: 17px;
+	}
+}
+@media(min-width: 1200px){
+	.tab-h2{
+		font-size: 30px;
+	}
+	.tab-p{
+		font-size: 18px;
+	}
+}
